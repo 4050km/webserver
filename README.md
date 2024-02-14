@@ -58,8 +58,6 @@ Webbench是有名的网站压力测试工具，它是由[Lionbridge](http://www.
 > * 展示服务器的两项内容：每秒钟响应请求数和每秒钟传输数据量。
 
 
-
-
 测试规则
 ------------
 * 测试示例
@@ -76,10 +74,9 @@ Webbench是有名的网站压力测试工具，它是由[Lionbridge](http://www.
 测试结果
 ---------
 Webbench对服务器进行压力测试，经压力测试可以实现上万的并发连接.
-> * 并发连接总数：10500
-> * 访问服务器时间：5s
-> * 每秒钟响应请求数：552852 pages/min
-> * 每秒钟传输数据量：1031990 bytes/sec
-> * 所有访问均成功
-
-<div align=center><img src="https://github.com/twomonkeyclub/TinyWebServer/blob/master/root/testresult.png" height="201"/> </div>
+> * 并发连接总数：10000
+> * 访问服务器时间：30s
+> * 每分钟响应请求数：805112 pages/min
+> * 每秒钟传输数据量：1502782 bytes/sec
+> * 402556个请求成功，零个请求失败
+<div align=center><img src="https://github.com/4050km/webserver/blob/main/root/testresult.png" height="201"/> </div>
