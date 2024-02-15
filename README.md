@@ -27,7 +27,7 @@
 * 修改http_conn.cpp中的root路径
 
     ```C++
-	// 修改为root文件夹所在路径
+	// 修改为服务器中的root文件夹所在路径，这里是Linux下的路径
     const char* doc_root="/home/WebServer/root";
     ```
 
