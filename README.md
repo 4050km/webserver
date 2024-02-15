@@ -63,7 +63,7 @@ Webbench是有名的网站压力测试工具，它是由[Lionbridge](http://www.
 * 测试示例
 
     ```C++
-	webbench -c 500  -t  30   http://127.0.0.1/phpionfo.php
+	webbench -c 10000  -t  30   http://127.0.0.1/phpionfo.php
     ```
 * 参数
 
