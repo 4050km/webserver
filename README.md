@@ -19,8 +19,8 @@
 * 修改main.c中的数据库初始化信息
 
     ```C++
-    // root root修改为服务器数据库的登录名和密码
-	// qgydb修改为上述创建的yourdb库名
+    // root root修改为服务器mysql的登录名和密码，3306为mysql的端口
+	// yourdb修改为服务器上mysql中所创建的数据库名称
     connPool->init("localhost", "root", "root", "yourdb", 3306, 8);
     ```
 
