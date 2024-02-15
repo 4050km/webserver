@@ -62,7 +62,7 @@ Webbench是有名的网站压力测试工具，它是由[Lionbridge](http://www.
 * 测试示例
 
     ```C++
-	webbench -c 10000  -t  30   http://127.0.0.1/phpionfo.php
+	webbench -c 10000  -t  30   服务器IP地址:服务器所监听的端口  例子：192.168.0.103:3307
     ```
 * 参数
 
